@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   margin-top: 1.5rem;
+   font-size: 0.8rem;
+}
+.logo img{
+    height: 30px;
+    width: 90px;
+}
+.list{
+    width:500px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 3rem;
+    gap: 30px;
+    color: #908e8e;
+}
+.list li:hover{
+    color: black;
+    font-weight: 700;
+}
+.nav-button{
+margin-left: 35rem;
+margin-right: 5rem;
+background-color: #5955b3;
+color: white;
+width: 100px;
+height: 35px;
+border-radius: 10px;
+}
+.hero-container{
+    position: absolute;
+    margin-top: 2.5rem;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-text{
+    width: 550px;
+    height:300px ;
+   margin:5rem 0rem 0rem 5rem;
+}
+.hero-heading{
+    font-size: 65px;
+    color: #3c2f60;
+}
+.hero-heading span{
+    color: #5955b3;
+}
+.hero-para{
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #908e8e;
+}
+.hero-button{
+    background-color:#5955b3 ;
+    color: white;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin:2rem 0rem 0rem 5rem;
+
+}
+.hero-image{
+    height: 550px;
+   width: 900PX ;
+    float: right;
+    position: fixed;
+    right: 0PX;
+}
+
