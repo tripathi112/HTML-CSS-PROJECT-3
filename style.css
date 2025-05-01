@@ -5,15 +5,16 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
 }
 .navbar{
     display: flex;
     align-items: center;
-   margin-top: 1.5rem;
+  padding:1rem 1rem 1rem 5rem;
    font-size: 0.8rem;
-}
-.logo{
-    margin-left: 5rem;
 }
 .logo img{
     height: 30px;
@@ -44,7 +45,7 @@ border-radius: 10px;
 }
 .left-text{
     height: 400px;
-    width: 500px;
+    width: 30%;
     text-align: left;
     margin: 5rem 0rem 0rem 5rem;
 }
@@ -73,9 +74,10 @@ border-radius: 10px;
 }
 .hero-image{
     height: 550px;
-   width: 900PX ;
-   margin-top: 2.5rem;
-    position: fixed;
-    right: 0PX;
+  width: 60%;
+    position: absolute;
+    top: 5rem;
+    right: 0px;
 }
+
 
